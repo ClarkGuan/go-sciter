@@ -1,11 +1,11 @@
 package main
 
 import (
-	"log"
+	sciter "github.com/ClarkGuan/go-sciter"
+	rice "github.com/ClarkGuan/go-sciter/rice"
+	window "github.com/ClarkGuan/go-sciter/window"
 	tool "github.com/GeertJohan/go.rice"
-	sciter "github.com/sciter-sdk/go-sciter"
-	rice "github.com/sciter-sdk/go-sciter/rice"
-	window "github.com/sciter-sdk/go-sciter/window"
+	"log"
 )
 
 /*

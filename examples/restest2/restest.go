@@ -1,9 +1,9 @@
 package main
 
 import (
+	sciter "github.com/ClarkGuan/go-sciter"
+	window "github.com/ClarkGuan/go-sciter/window"
 	"log"
-	sciter "github.com/sciter-sdk/go-sciter"
-	window "github.com/sciter-sdk/go-sciter/window"
 )
 
 /*

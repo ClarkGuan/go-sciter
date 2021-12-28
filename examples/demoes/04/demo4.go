@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sciter-sdk/go-sciter"
-	"github.com/sciter-sdk/go-sciter/window"
+	"github.com/ClarkGuan/go-sciter"
+	"github.com/ClarkGuan/go-sciter/window"
 )
 
 //设置元素的处理程序
