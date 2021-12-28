@@ -184,9 +184,13 @@ enum GFX_LAYER
     INT        cy;
   } SIZE, *PSIZE, *LPSIZE;
 
-  #define HWINDOW void*   // NSView*
-  #define HINSTANCE void* // NSApplication*
-  #define HDC void*       // CGContextRef
+  typedef void *HANDLE_WINDOW;
+  typedef void *HANDLE_APPLICATION;
+  typedef void *HANDLE_CG_CONTEXT_REF;
+
+  #define HWINDOW HANDLE_WINDOW   // NSView*
+  #define HINSTANCE HANDLE_APPLICATION // NSApplication*
+  #define HDC HANDLE_CG_CONTEXT_REF       // CGContextRef
 
   #define LRESULT long
 
