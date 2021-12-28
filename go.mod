@@ -1,4 +1,4 @@
-module go-sciter
+module github.com/ClarkGuan/go-sciter
 
 go 1.10
 
